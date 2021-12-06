@@ -1,6 +1,6 @@
 FROM python:2.7
 
-COPY .project/techtrends /app
+COPY ./project/techtrends /app
 
 WORKDIR /app
 
