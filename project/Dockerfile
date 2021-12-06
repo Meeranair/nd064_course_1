@@ -1,10 +1,10 @@
 FROM python:2.7
 
-COPY . /techtrends
+COPY .project/techtrends /app
 
-WORKDIR /techtrends
+WORKDIR /app
 
-RUN pip install -r techtrends/requirements.txt
+RUN pip install -r requirements.txt
 
 RUN python init_db.py
 
