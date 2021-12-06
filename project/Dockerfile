@@ -4,7 +4,7 @@ COPY . /techtrends
 
 WORKDIR /techtrends
 
-RUN pip install -r requirements.txt
+RUN pip install -r techtrends/requirements.txt
 
 RUN python init_db.py
 
